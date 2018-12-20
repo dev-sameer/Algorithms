@@ -2,7 +2,7 @@
 
 //The approach to this type of problem, which involves an array containing set of numbers and we need to find out a pair satisfying the givin condition 
 
-// In this case I'm assuming the array to be sorted and the objective is to findout the first pair of elements which sums to ZERO 
+//In this case I'm assuming the array to be sorted and the objective is to findout the first pair of elements which sums to ZERO 
 
 //We are not using a nested loop to find out the pair instead we are using two pointers pointing to the first and the last index of the array
 
