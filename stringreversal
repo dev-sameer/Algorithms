@@ -18,11 +18,11 @@ function reversal(str){
 
 function reversal(str){
 
-var reverse = str.split("").reduce((result,char)=>{
+  var reverse = str.split("").reduce((result,char)=>{
   result=char+result;
   return result;
-},"");
+  },"");
 
-return reverse;
+  return reverse;
 
 }
