@@ -23,3 +23,20 @@ return chunkedarray;
 
 
 }
+
+//Using while loop and SLICE method
+
+function chunk(arr,size)
+{
+var chunkedarr=[];
+var i=0;
+var increment=size;
+while(i<arr.length)
+{
+  chunkedarr.push(arr.slice(i,size));
+  i=i+increment;
+  size=size+increment;
+}
+return chunkedarr;
+
+}
