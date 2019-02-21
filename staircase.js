@@ -22,3 +22,25 @@ function steps(n)
 
 
 }
+
+//USING RECURSION
+
+
+function steps(n,row=0)
+{
+var str="";
+  if(n===0)
+  {
+    return;
+  }
+
+  for(var i=0;i<=row;i++)
+  {
+    str+="#";
+  }
+  
+console.log(str);
+steps(n-1,row+1);
+
+
+}
